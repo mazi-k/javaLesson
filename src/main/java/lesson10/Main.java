@@ -1,13 +1,16 @@
 package lesson10;
 
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        //searchForUniqueWords();
+
+        searchForUniqueWords();
+
+        System.out.println();
+
         PhoneDirectory contact1 = new PhoneDirectory("81001", "Andy");
         PhoneDirectory contact2 = new PhoneDirectory("57865", "Andy");
         PhoneDirectory contact3 = new PhoneDirectory("88335", "Kerny");
@@ -27,9 +30,6 @@ public class Main {
         cont3.add("Fler", "1717");
         PhoneDirectory2.print();
         PhoneDirectory2.get("Fler");
-
-
-
     }
 
     public static void searchForUniqueWords(){
